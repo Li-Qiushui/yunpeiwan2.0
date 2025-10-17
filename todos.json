@@ -1,17 +1,8 @@
 {
-  "todos": [
-    {
-      "title": "123",
-      "description": "123",
-      "priority": "medium",
-      "completed": false,
-      "createdAt": "2025-10-17T21:46:59.725Z",
-      "updatedAt": "2025-10-17T21:46:59.725Z"
-    }
-  ],
+  "todos": [],
   "metadata": {
     "version": "1.0",
-    "lastUpdated": "2025-10-17T21:47:26.570Z",
+    "lastUpdated": "2025-10-17T21:47:29.859Z",
     "source": "云陪玩2.0 Todo"
   }
 }
