@@ -1,8 +1,321 @@
 {
-  "todos": [],
+  "todos": [
+    {
+      "title": "团队列表功能 - 未实现",
+      "description": "GET /rbac/teams - 需要实现团队列表功能",
+      "priority": "high",
+      "completed": false,
+      "tags": [
+        "API",
+        "团队管理",
+        "待开发"
+      ],
+      "createdAt": "2025-10-17T22:07:52.596Z",
+      "updatedAt": "2025-10-17T22:07:52.596Z"
+    },
+    {
+      "title": "删除角色功能 - 未实现",
+      "description": "POST /rbac/roles/{role_id}/delete - 需要实现删除角色功能",
+      "priority": "high",
+      "completed": false,
+      "tags": [
+        "API",
+        "角色管理",
+        "待开发"
+      ],
+      "createdAt": "2025-10-17T22:07:52.596Z",
+      "updatedAt": "2025-10-17T22:07:52.596Z"
+    },
+    {
+      "title": "分配权限功能 - 未实现",
+      "description": "POST /rbac/roles/{role_id}/assign-permissions - 需要实现分配权限功能",
+      "priority": "high",
+      "completed": false,
+      "tags": [
+        "API",
+        "权限管理",
+        "待开发"
+      ],
+      "createdAt": "2025-10-17T22:07:52.596Z",
+      "updatedAt": "2025-10-17T22:07:52.596Z"
+    },
+    {
+      "title": "分配用户角色功能 - 未实现",
+      "description": "POST /rbac/user-roles/create - 需要实现分配用户角色功能",
+      "priority": "high",
+      "completed": false,
+      "tags": [
+        "API",
+        "用户管理",
+        "待开发"
+      ],
+      "createdAt": "2025-10-17T22:07:52.596Z",
+      "updatedAt": "2025-10-17T22:07:52.596Z"
+    },
+    {
+      "title": "团队详情功能 - 未实现",
+      "description": "GET /rbac/teams/{team_id} - 需要实现团队详情功能",
+      "priority": "medium",
+      "completed": false,
+      "tags": [
+        "API",
+        "团队管理",
+        "待开发"
+      ],
+      "createdAt": "2025-10-17T22:07:52.596Z",
+      "updatedAt": "2025-10-17T22:07:52.596Z"
+    },
+    {
+      "title": "团队统计功能 - 未实现",
+      "description": "GET /rbac/teams/{team_id}/statistics - 需要实现团队统计功能",
+      "priority": "medium",
+      "completed": false,
+      "tags": [
+        "API",
+        "团队管理",
+        "待开发"
+      ],
+      "createdAt": "2025-10-17T22:07:52.596Z",
+      "updatedAt": "2025-10-17T22:07:52.596Z"
+    },
+    {
+      "title": "全局角色列表功能 - 未实现",
+      "description": "GET /rbac/roles - 需要实现全局角色列表功能",
+      "priority": "medium",
+      "completed": false,
+      "tags": [
+        "API",
+        "角色管理",
+        "待开发"
+      ],
+      "createdAt": "2025-10-17T22:07:52.596Z",
+      "updatedAt": "2025-10-17T22:07:52.596Z"
+    },
+    {
+      "title": "角色详情功能 - 未实现",
+      "description": "GET /rbac/roles/{role_id} - 需要实现角色详情功能",
+      "priority": "medium",
+      "completed": false,
+      "tags": [
+        "API",
+        "角色管理",
+        "待开发"
+      ],
+      "createdAt": "2025-10-17T22:07:52.596Z",
+      "updatedAt": "2025-10-17T22:07:52.596Z"
+    },
+    {
+      "title": "角色用户列表功能 - 未实现",
+      "description": "GET /rbac/roles/{role_id}/users - 需要实现角色用户列表功能",
+      "priority": "medium",
+      "completed": false,
+      "tags": [
+        "API",
+        "角色管理",
+        "待开发"
+      ],
+      "createdAt": "2025-10-17T22:07:52.596Z",
+      "updatedAt": "2025-10-17T22:07:52.596Z"
+    },
+    {
+      "title": "权限列表功能 - 未实现",
+      "description": "GET /rbac/permissions - 需要实现权限列表功能",
+      "priority": "medium",
+      "completed": false,
+      "tags": [
+        "API",
+        "权限管理",
+        "待开发"
+      ],
+      "createdAt": "2025-10-17T22:07:52.596Z",
+      "updatedAt": "2025-10-17T22:07:52.596Z"
+    },
+    {
+      "title": "权限模块功能 - 未实现",
+      "description": "GET /rbac/permissions/modules - 需要实现权限模块功能",
+      "priority": "medium",
+      "completed": false,
+      "tags": [
+        "API",
+        "权限管理",
+        "待开发"
+      ],
+      "createdAt": "2025-10-17T22:07:52.596Z",
+      "updatedAt": "2025-10-17T22:07:52.596Z"
+    },
+    {
+      "title": "按模块分组权限功能 - 未实现",
+      "description": "GET /rbac/permissions/by-module - 需要实现按模块分组权限功能",
+      "priority": "medium",
+      "completed": false,
+      "tags": [
+        "API",
+        "权限管理",
+        "待开发"
+      ],
+      "createdAt": "2025-10-17T22:07:52.596Z",
+      "updatedAt": "2025-10-17T22:07:52.596Z"
+    },
+    {
+      "title": "用户角色列表功能 - 未实现",
+      "description": "GET /rbac/user-roles - 需要实现用户角色列表功能",
+      "priority": "medium",
+      "completed": false,
+      "tags": [
+        "API",
+        "用户管理",
+        "待开发"
+      ],
+      "createdAt": "2025-10-17T22:07:52.596Z",
+      "updatedAt": "2025-10-17T22:07:52.596Z"
+    },
+    {
+      "title": "批量分配角色功能 - 未实现",
+      "description": "POST /rbac/user-roles/batch-assign - 需要实现批量分配角色功能",
+      "priority": "medium",
+      "completed": false,
+      "tags": [
+        "API",
+        "用户管理",
+        "待开发"
+      ],
+      "createdAt": "2025-10-17T22:07:52.596Z",
+      "updatedAt": "2025-10-17T22:07:52.596Z"
+    },
+    {
+      "title": "数据权限规则功能 - 未实现",
+      "description": "GET /rbac/data-rules/* - 需要实现数据权限规则功能",
+      "priority": "low",
+      "completed": false,
+      "tags": [
+        "API",
+        "数据权限",
+        "待开发"
+      ],
+      "createdAt": "2025-10-17T22:07:52.596Z",
+      "updatedAt": "2025-10-17T22:07:52.596Z"
+    },
+    {
+      "title": "权限变更历史功能 - 未实现",
+      "description": "GET /rbac/history - 需要实现权限变更历史功能",
+      "priority": "low",
+      "completed": false,
+      "tags": [
+        "API",
+        "历史记录",
+        "待开发"
+      ],
+      "createdAt": "2025-10-17T22:07:52.596Z",
+      "updatedAt": "2025-10-17T22:07:52.596Z"
+    },
+    {
+      "title": "用户登录接口 - 已完成",
+      "description": "POST /auth/login - 用户登录功能已实现",
+      "priority": "high",
+      "completed": true,
+      "tags": [
+        "API",
+        "认证",
+        "已完成"
+      ],
+      "createdAt": "2025-10-17T22:07:52.595Z",
+      "updatedAt": "2025-10-17T22:07:52.595Z"
+    },
+    {
+      "title": "获取用户信息接口 - 已完成",
+      "description": "GET /auth/user - 获取用户信息功能已实现",
+      "priority": "high",
+      "completed": true,
+      "tags": [
+        "API",
+        "认证",
+        "已完成"
+      ],
+      "createdAt": "2025-10-17T22:07:52.596Z",
+      "updatedAt": "2025-10-17T22:07:52.596Z"
+    },
+    {
+      "title": "获取角色权限接口 - 已完成",
+      "description": "GET /rbac/roles/{role_id}/permissions - 获取角色权限功能已实现",
+      "priority": "high",
+      "completed": true,
+      "tags": [
+        "API",
+        "RBAC",
+        "已完成"
+      ],
+      "createdAt": "2025-10-17T22:07:52.596Z",
+      "updatedAt": "2025-10-17T22:07:52.596Z"
+    },
+    {
+      "title": "创建角色接口 - 已完成",
+      "description": "POST /rbac/roles/create - 创建角色功能已实现",
+      "priority": "high",
+      "completed": true,
+      "tags": [
+        "API",
+        "角色管理",
+        "已完成"
+      ],
+      "createdAt": "2025-10-17T22:07:52.596Z",
+      "updatedAt": "2025-10-17T22:07:52.596Z"
+    },
+    {
+      "title": "更新角色接口 - 已完成",
+      "description": "POST /rbac/roles/{role_id}/update - 更新角色功能已实现",
+      "priority": "high",
+      "completed": true,
+      "tags": [
+        "API",
+        "角色管理",
+        "已完成"
+      ],
+      "createdAt": "2025-10-17T22:07:52.596Z",
+      "updatedAt": "2025-10-17T22:07:52.596Z"
+    },
+    {
+      "title": "用户登出接口 - 已完成",
+      "description": "POST /auth/logout - 用户登出功能已实现",
+      "priority": "high",
+      "completed": true,
+      "tags": [
+        "API",
+        "认证",
+        "已完成"
+      ],
+      "createdAt": "2025-10-17T22:07:52.596Z",
+      "updatedAt": "2025-10-17T22:07:52.596Z"
+    },
+    {
+      "title": "获取团队成员接口 - 已完成",
+      "description": "GET /rbac/teams/{team_id}/members - 获取团队成员功能已实现",
+      "priority": "medium",
+      "completed": true,
+      "tags": [
+        "API",
+        "团队管理",
+        "已完成"
+      ],
+      "createdAt": "2025-10-17T22:07:52.596Z",
+      "updatedAt": "2025-10-17T22:07:52.596Z"
+    },
+    {
+      "title": "获取团队角色接口 - 已完成",
+      "description": "GET /rbac/teams/{team_id}/roles - 获取团队角色功能已实现",
+      "priority": "medium",
+      "completed": true,
+      "tags": [
+        "API",
+        "团队管理",
+        "已完成"
+      ],
+      "createdAt": "2025-10-17T22:07:52.596Z",
+      "updatedAt": "2025-10-17T22:07:52.596Z"
+    }
+  ],
   "metadata": {
     "version": "1.0",
-    "lastUpdated": "2025-10-17T22:07:14.664Z",
+    "lastUpdated": "2025-10-17T22:07:53.108Z",
     "source": "云陪玩2.0 Todo"
   }
 }
