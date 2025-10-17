@@ -53,14 +53,6 @@
       "updatedAt": "2025-10-17T23:43:55.628Z"
     },
     {
-      "title": "test",
-      "description": "",
-      "priority": "high",
-      "completed": false,
-      "createdAt": "2025-10-17T23:51:03.577Z",
-      "updatedAt": "2025-10-17T23:51:16.263Z"
-    },
-    {
       "title": "团队详情功能 - 未实现",
       "description": "GET /rbac/teams/{team_id} - 需要实现团队详情功能",
       "priority": "medium",
@@ -323,7 +315,7 @@
   ],
   "metadata": {
     "version": "1.0",
-    "lastUpdated": "2025-10-17T23:51:16.783Z",
+    "lastUpdated": "2025-10-17T23:51:30.513Z",
     "source": "云陪玩2.0 Todo"
   }
 }
