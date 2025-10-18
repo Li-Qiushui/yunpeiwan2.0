@@ -66,6 +66,32 @@
       "updatedAt": "2025-10-18T10:08:08.140Z"
     },
     {
+      "title": "团队注册功能",
+      "description": "POST /auth/register - 需要实现团队注册功能",
+      "priority": "high",
+      "completed": false,
+      "tags": [
+        "API",
+        "认证",
+        "待开发"
+      ],
+      "createdAt": "2025-10-18T15:25:35.114Z",
+      "updatedAt": "2025-10-18T15:25:35.114Z"
+    },
+    {
+      "title": "当前用户信息功能",
+      "description": "GET /rbac/me - 需要实现当前用户信息功能",
+      "priority": "high",
+      "completed": false,
+      "tags": [
+        "API",
+        "用户管理",
+        "待开发"
+      ],
+      "createdAt": "2025-10-18T15:25:35.114Z",
+      "updatedAt": "2025-10-18T15:25:35.114Z"
+    },
+    {
       "title": "团队详情功能 - 未实现",
       "description": "GET /rbac/teams/{team_id} - 需要实现团队详情功能",
       "priority": "medium",
@@ -196,6 +222,58 @@
       "updatedAt": "2025-10-17T22:07:52.596Z"
     },
     {
+      "title": "当前用户团队功能",
+      "description": "GET /rbac/me/teams - 需要实现当前用户团队功能",
+      "priority": "medium",
+      "completed": false,
+      "tags": [
+        "API",
+        "团队管理",
+        "待开发"
+      ],
+      "createdAt": "2025-10-18T15:25:35.114Z",
+      "updatedAt": "2025-10-18T15:25:35.114Z"
+    },
+    {
+      "title": "当前用户权限功能",
+      "description": "GET /rbac/me/permissions - 需要实现当前用户权限功能",
+      "priority": "medium",
+      "completed": false,
+      "tags": [
+        "API",
+        "权限管理",
+        "待开发"
+      ],
+      "createdAt": "2025-10-18T15:25:35.114Z",
+      "updatedAt": "2025-10-18T15:25:35.114Z"
+    },
+    {
+      "title": "当前用户角色功能",
+      "description": "GET /rbac/me/roles - 需要实现当前用户角色功能",
+      "priority": "medium",
+      "completed": false,
+      "tags": [
+        "API",
+        "角色管理",
+        "待开发"
+      ],
+      "createdAt": "2025-10-18T15:25:35.114Z",
+      "updatedAt": "2025-10-18T15:25:35.114Z"
+    },
+    {
+      "title": "检查权限功能",
+      "description": "GET /rbac/me/check-permission - 需要实现检查权限功能",
+      "priority": "medium",
+      "completed": false,
+      "tags": [
+        "API",
+        "权限管理",
+        "待开发"
+      ],
+      "createdAt": "2025-10-18T15:25:35.114Z",
+      "updatedAt": "2025-10-18T15:25:35.114Z"
+    },
+    {
       "title": "数据权限规则功能 - 未实现",
       "description": "GET /rbac/data-rules/* - 需要实现数据权限规则功能",
       "priority": "low",
@@ -220,6 +298,45 @@
       ],
       "createdAt": "2025-10-17T22:07:52.596Z",
       "updatedAt": "2025-10-17T22:07:52.596Z"
+    },
+    {
+      "title": "创建数据权限规则功能",
+      "description": "POST /rbac/data-rules/create - 需要实现创建数据权限规则功能",
+      "priority": "low",
+      "completed": false,
+      "tags": [
+        "API",
+        "数据权限",
+        "待开发"
+      ],
+      "createdAt": "2025-10-18T15:25:35.114Z",
+      "updatedAt": "2025-10-18T15:25:35.114Z"
+    },
+    {
+      "title": "更新数据权限规则功能",
+      "description": "POST /rbac/data-rules/{rule_id}/update - 需要实现更新数据权限规则功能",
+      "priority": "low",
+      "completed": false,
+      "tags": [
+        "API",
+        "数据权限",
+        "待开发"
+      ],
+      "createdAt": "2025-10-18T15:25:35.114Z",
+      "updatedAt": "2025-10-18T15:25:35.114Z"
+    },
+    {
+      "title": "删除数据权限规则功能",
+      "description": "POST /rbac/data-rules/{rule_id}/delete - 需要实现删除数据权限规则功能",
+      "priority": "low",
+      "completed": false,
+      "tags": [
+        "API",
+        "数据权限",
+        "待开发"
+      ],
+      "createdAt": "2025-10-18T15:25:35.114Z",
+      "updatedAt": "2025-10-18T15:25:35.114Z"
     },
     {
       "title": "用户登录接口 - 已完成",
@@ -315,7 +432,7 @@
   ],
   "metadata": {
     "version": "1.0",
-    "lastUpdated": "2025-10-18T10:08:08.643Z",
+    "lastUpdated": "2025-10-18T15:25:35.634Z",
     "source": "云陪玩2.0 Todo"
   }
 }
