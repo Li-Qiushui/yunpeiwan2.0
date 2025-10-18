@@ -53,6 +53,19 @@
       "updatedAt": "2025-10-17T23:43:55.628Z"
     },
     {
+      "title": "更新角色接口 - 已完成",
+      "description": "POST /rbac/roles/{role_id}/update - 更新角色功能已实现",
+      "priority": "high",
+      "completed": false,
+      "tags": [
+        "API",
+        "角色管理",
+        "已完成"
+      ],
+      "createdAt": "2025-10-17T22:07:52.596Z",
+      "updatedAt": "2025-10-18T09:15:57.594Z"
+    },
+    {
       "title": "团队详情功能 - 未实现",
       "description": "GET /rbac/teams/{team_id} - 需要实现团队详情功能",
       "priority": "medium",
@@ -261,19 +274,6 @@
       "updatedAt": "2025-10-17T22:07:52.596Z"
     },
     {
-      "title": "更新角色接口 - 已完成",
-      "description": "POST /rbac/roles/{role_id}/update - 更新角色功能已实现",
-      "priority": "high",
-      "completed": true,
-      "tags": [
-        "API",
-        "角色管理",
-        "已完成"
-      ],
-      "createdAt": "2025-10-17T22:07:52.596Z",
-      "updatedAt": "2025-10-17T22:07:52.596Z"
-    },
-    {
       "title": "用户登出接口 - 已完成",
       "description": "POST /auth/logout - 用户登出功能已实现",
       "priority": "high",
@@ -315,7 +315,7 @@
   ],
   "metadata": {
     "version": "1.0",
-    "lastUpdated": "2025-10-17T23:51:30.513Z",
+    "lastUpdated": "2025-10-18T09:15:58.104Z",
     "source": "云陪玩2.0 Todo"
   }
 }
