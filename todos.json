@@ -40,19 +40,6 @@
       "updatedAt": "2025-10-17T23:43:55.628Z"
     },
     {
-      "title": "更新角色接口 - 已完成",
-      "description": "POST /rbac/roles/{role_id}/update - 更新角色功能已实现",
-      "priority": "high",
-      "completed": false,
-      "tags": [
-        "API",
-        "角色管理",
-        "已完成"
-      ],
-      "createdAt": "2025-10-17T22:07:52.596Z",
-      "updatedAt": "2025-10-18T09:15:57.594Z"
-    },
-    {
       "title": "删除角色功能 - 未实现",
       "description": "POST /rbac/roles/{role_id}/delete - 需要实现删除角色功能",
       "priority": "high",
@@ -432,7 +419,7 @@
   ],
   "metadata": {
     "version": "1.0",
-    "lastUpdated": "2025-10-18T15:25:35.634Z",
+    "lastUpdated": "2025-10-18T15:26:20.658Z",
     "source": "云陪玩2.0 Todo"
   }
 }
