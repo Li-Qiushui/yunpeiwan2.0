@@ -157,19 +157,6 @@
       "updatedAt": "2025-10-17T22:07:52.596Z"
     },
     {
-      "title": "权限模块功能 - 未实现",
-      "description": "GET /rbac/permissions/modules - 需要实现权限模块功能",
-      "priority": "medium",
-      "completed": false,
-      "tags": [
-        "API",
-        "权限管理",
-        "待开发"
-      ],
-      "createdAt": "2025-10-17T22:07:52.596Z",
-      "updatedAt": "2025-10-17T22:07:52.596Z"
-    },
-    {
       "title": "按模块分组权限功能 - 未实现",
       "description": "GET /rbac/permissions/by-module - 需要实现按模块分组权限功能",
       "priority": "medium",
@@ -419,7 +406,7 @@
   ],
   "metadata": {
     "version": "1.0",
-    "lastUpdated": "2025-10-18T15:26:20.658Z",
+    "lastUpdated": "2025-10-18T15:26:30.544Z",
     "source": "云陪玩2.0 Todo"
   }
 }
