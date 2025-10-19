@@ -147,14 +147,14 @@
       "title": "权限列表功能 - 未实现",
       "description": "GET /rbac/permissions - 需要实现权限列表功能",
       "priority": "medium",
-      "completed": false,
+      "completed": true,
       "tags": [
         "API",
         "权限管理",
         "待开发"
       ],
       "createdAt": "2025-10-17T22:07:52.596Z",
-      "updatedAt": "2025-10-17T22:07:52.596Z"
+      "updatedAt": "2025-10-19T20:50:35.568Z"
     },
     {
       "title": "用户角色列表功能 - 未实现",
@@ -393,7 +393,7 @@
   ],
   "metadata": {
     "version": "1.0",
-    "lastUpdated": "2025-10-18T18:35:21.051Z",
+    "lastUpdated": "2025-10-19T20:50:36.079Z",
     "source": "云陪玩2.0 Todo"
   }
 }
