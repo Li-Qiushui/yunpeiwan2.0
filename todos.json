@@ -55,7 +55,7 @@
     {
       "title": "团队详情功能 - 未实现",
       "description": "GET /rbac/teams/{team_id} - 需要实现团队详情功能",
-      "priority": "medium",
+      "priority": "high",
       "completed": false,
       "tags": [
         "API",
@@ -63,7 +63,7 @@
         "待开发"
       ],
       "createdAt": "2025-10-17T22:07:52.596Z",
-      "updatedAt": "2025-10-17T22:07:52.596Z"
+      "updatedAt": "2025-10-20T00:23:36.977Z"
     },
     {
       "title": "团队统计功能 - 未实现",
@@ -393,7 +393,7 @@
   ],
   "metadata": {
     "version": "1.0",
-    "lastUpdated": "2025-10-20T00:23:25.017Z",
+    "lastUpdated": "2025-10-20T00:23:37.482Z",
     "source": "云陪玩2.0 Todo"
   }
 }
