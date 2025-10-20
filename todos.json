@@ -1,19 +1,6 @@
 {
   "todos": [
     {
-      "title": "分配权限功能 - 未实现",
-      "description": "POST /rbac/roles/{role_id}/assign-permissions - 需要实现分配权限功能",
-      "priority": "high",
-      "completed": true,
-      "tags": [
-        "API",
-        "权限管理",
-        "待开发"
-      ],
-      "createdAt": "2025-10-17T22:07:52.596Z",
-      "updatedAt": "2025-10-20T00:11:16.795Z"
-    },
-    {
       "title": "团队列表功能 - 未实现",
       "description": "GET /rbac/teams - 需要实现团队列表功能",
       "priority": "high",
@@ -287,6 +274,19 @@
       "updatedAt": "2025-10-18T15:25:35.114Z"
     },
     {
+      "title": "分配权限功能 - 未实现",
+      "description": "POST /rbac/roles/{role_id}/assign-permissions - 需要实现分配权限功能",
+      "priority": "high",
+      "completed": true,
+      "tags": [
+        "API",
+        "权限管理",
+        "待开发"
+      ],
+      "createdAt": "2025-10-17T22:07:52.596Z",
+      "updatedAt": "2025-10-20T00:11:16.795Z"
+    },
+    {
       "title": "用户登录接口 - 已完成",
       "description": "POST /auth/login - 用户登录功能已实现",
       "priority": "high",
@@ -393,7 +393,7 @@
   ],
   "metadata": {
     "version": "1.0",
-    "lastUpdated": "2025-10-20T00:11:17.297Z",
+    "lastUpdated": "2025-10-20T00:11:25.035Z",
     "source": "云陪玩2.0 Todo"
   }
 }
