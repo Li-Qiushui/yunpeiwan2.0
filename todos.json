@@ -107,7 +107,7 @@
     {
       "title": "角色用户列表功能 - 未实现",
       "description": "GET /rbac/roles/{role_id}/users - 需要实现角色用户列表功能",
-      "priority": "medium",
+      "priority": "high",
       "completed": false,
       "tags": [
         "API",
@@ -115,7 +115,7 @@
         "待开发"
       ],
       "createdAt": "2025-10-17T22:07:52.596Z",
-      "updatedAt": "2025-10-17T22:07:52.596Z"
+      "updatedAt": "2025-10-20T00:24:12.708Z"
     },
     {
       "title": "用户角色列表功能 - 未实现",
@@ -393,7 +393,7 @@
   ],
   "metadata": {
     "version": "1.0",
-    "lastUpdated": "2025-10-20T00:24:06.279Z",
+    "lastUpdated": "2025-10-20T00:24:13.215Z",
     "source": "云陪玩2.0 Todo"
   }
 }
