@@ -120,7 +120,7 @@
     {
       "title": "用户角色列表功能 - 未实现",
       "description": "GET /rbac/user-roles - 需要实现用户角色列表功能",
-      "priority": "medium",
+      "priority": "high",
       "completed": false,
       "tags": [
         "API",
@@ -128,7 +128,7 @@
         "待开发"
       ],
       "createdAt": "2025-10-17T22:07:52.596Z",
-      "updatedAt": "2025-10-17T22:07:52.596Z"
+      "updatedAt": "2025-10-20T00:24:19.355Z"
     },
     {
       "title": "批量分配角色功能 - 未实现",
@@ -393,7 +393,7 @@
   ],
   "metadata": {
     "version": "1.0",
-    "lastUpdated": "2025-10-20T00:24:13.215Z",
+    "lastUpdated": "2025-10-20T00:24:19.864Z",
     "source": "云陪玩2.0 Todo"
   }
 }
