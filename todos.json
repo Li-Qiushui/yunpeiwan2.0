@@ -2,7 +2,7 @@
   "todos": [
     {
       "title": "团队列表功能 - 未实现",
-      "description": "GET /rbac/teams - 需要实现团队列表功能",
+      "description": "GET /rbac/teams - 需要实现团队列表功能（不理解具体用处）",
       "priority": "high",
       "completed": false,
       "tags": [
@@ -11,7 +11,7 @@
         "待开发"
       ],
       "createdAt": "2025-10-17T22:07:52.596Z",
-      "updatedAt": "2025-10-17T23:43:55.628Z"
+      "updatedAt": "2025-10-20T00:14:13.737Z"
     },
     {
       "title": "删除角色功能 - 未实现",
@@ -393,7 +393,7 @@
   ],
   "metadata": {
     "version": "1.0",
-    "lastUpdated": "2025-10-20T00:11:25.035Z",
+    "lastUpdated": "2025-10-20T00:14:14.246Z",
     "source": "云陪玩2.0 Todo"
   }
 }
