@@ -1,32 +1,6 @@
 {
   "todos": [
     {
-      "title": "删除角色功能 - 未实现",
-      "description": "POST /rbac/roles/{role_id}/delete - 需要实现删除角色功能",
-      "priority": "medium",
-      "completed": false,
-      "tags": [
-        "API",
-        "角色管理",
-        "待开发"
-      ],
-      "createdAt": "2025-10-17T22:07:52.596Z",
-      "updatedAt": "2025-10-20T00:25:07.420Z"
-    },
-    {
-      "title": "团队注册功能",
-      "description": "POST /auth/register - 需要实现团队注册功能",
-      "priority": "medium",
-      "completed": false,
-      "tags": [
-        "API",
-        "认证",
-        "待开发"
-      ],
-      "createdAt": "2025-10-18T15:25:35.114Z",
-      "updatedAt": "2025-10-20T00:25:15.949Z"
-    },
-    {
       "title": "当前用户信息功能",
       "description": "GET /rbac/me - 需要实现当前用户信息功能",
       "priority": "high",
@@ -40,19 +14,6 @@
       "updatedAt": "2025-10-18T15:25:35.114Z"
     },
     {
-      "title": "分配用户角色功能 - 未实现",
-      "description": "POST /rbac/user-roles/create - 需要实现分配用户角色功能",
-      "priority": "medium",
-      "completed": false,
-      "tags": [
-        "API",
-        "用户管理",
-        "待开发"
-      ],
-      "createdAt": "2025-10-17T22:07:52.596Z",
-      "updatedAt": "2025-10-20T00:24:54.095Z"
-    },
-    {
       "title": "团队详情功能 - 未实现",
       "description": "GET /rbac/teams/{team_id} - 需要实现团队详情功能",
       "priority": "high",
@@ -64,19 +25,6 @@
       ],
       "createdAt": "2025-10-17T22:07:52.596Z",
       "updatedAt": "2025-10-20T00:23:36.977Z"
-    },
-    {
-      "title": "团队统计功能 - 未实现",
-      "description": "GET /rbac/teams/{team_id}/statistics - 需要实现团队统计功能",
-      "priority": "medium",
-      "completed": false,
-      "tags": [
-        "API",
-        "团队管理",
-        "待开发"
-      ],
-      "createdAt": "2025-10-17T22:07:52.596Z",
-      "updatedAt": "2025-10-17T22:07:52.596Z"
     },
     {
       "title": "全局角色列表功能 - 未实现",
@@ -131,19 +79,6 @@
       "updatedAt": "2025-10-20T00:24:19.355Z"
     },
     {
-      "title": "批量分配角色功能 - 未实现",
-      "description": "POST /rbac/user-roles/batch-assign - 需要实现批量分配角色功能",
-      "priority": "medium",
-      "completed": false,
-      "tags": [
-        "API",
-        "用户管理",
-        "待开发"
-      ],
-      "createdAt": "2025-10-17T22:07:52.596Z",
-      "updatedAt": "2025-10-17T22:07:52.596Z"
-    },
-    {
       "title": "当前用户团队功能",
       "description": "GET /rbac/me/teams - 需要实现当前用户团队功能",
       "priority": "high",
@@ -183,19 +118,6 @@
       "updatedAt": "2025-10-20T00:23:24.141Z"
     },
     {
-      "title": "检查权限功能",
-      "description": "GET /rbac/me/check-permission - 需要实现检查权限功能",
-      "priority": "medium",
-      "completed": false,
-      "tags": [
-        "API",
-        "权限管理",
-        "待开发"
-      ],
-      "createdAt": "2025-10-18T15:25:35.114Z",
-      "updatedAt": "2025-10-20T00:26:33.789Z"
-    },
-    {
       "title": "团队列表功能 - 未实现",
       "description": "GET /rbac/teams - 需要实现团队列表功能（不理解具体用处）",
       "priority": "high",
@@ -222,17 +144,82 @@
       "updatedAt": "2025-10-20T00:24:45.193Z"
     },
     {
-      "title": "权限变更历史功能 - 未实现",
-      "description": "GET /rbac/history - 需要实现权限变更历史功能",
-      "priority": "low",
+      "title": "删除角色功能 - 未实现",
+      "description": "POST /rbac/roles/{role_id}/delete - 需要实现删除角色功能",
+      "priority": "medium",
       "completed": false,
       "tags": [
         "API",
-        "历史记录",
+        "角色管理",
+        "待开发"
+      ],
+      "createdAt": "2025-10-17T22:07:52.596Z",
+      "updatedAt": "2025-10-20T00:25:07.420Z"
+    },
+    {
+      "title": "团队注册功能",
+      "description": "POST /auth/register - 需要实现团队注册功能",
+      "priority": "medium",
+      "completed": false,
+      "tags": [
+        "API",
+        "认证",
+        "待开发"
+      ],
+      "createdAt": "2025-10-18T15:25:35.114Z",
+      "updatedAt": "2025-10-20T00:25:15.949Z"
+    },
+    {
+      "title": "分配用户角色功能 - 未实现",
+      "description": "POST /rbac/user-roles/create - 需要实现分配用户角色功能",
+      "priority": "medium",
+      "completed": false,
+      "tags": [
+        "API",
+        "用户管理",
+        "待开发"
+      ],
+      "createdAt": "2025-10-17T22:07:52.596Z",
+      "updatedAt": "2025-10-20T00:24:54.095Z"
+    },
+    {
+      "title": "团队统计功能 - 未实现",
+      "description": "GET /rbac/teams/{team_id}/statistics - 需要实现团队统计功能",
+      "priority": "medium",
+      "completed": false,
+      "tags": [
+        "API",
+        "团队管理",
         "待开发"
       ],
       "createdAt": "2025-10-17T22:07:52.596Z",
       "updatedAt": "2025-10-17T22:07:52.596Z"
+    },
+    {
+      "title": "批量分配角色功能 - 未实现",
+      "description": "POST /rbac/user-roles/batch-assign - 需要实现批量分配角色功能",
+      "priority": "medium",
+      "completed": false,
+      "tags": [
+        "API",
+        "用户管理",
+        "待开发"
+      ],
+      "createdAt": "2025-10-17T22:07:52.596Z",
+      "updatedAt": "2025-10-17T22:07:52.596Z"
+    },
+    {
+      "title": "检查权限功能",
+      "description": "GET /rbac/me/check-permission - 需要实现检查权限功能",
+      "priority": "medium",
+      "completed": false,
+      "tags": [
+        "API",
+        "权限管理",
+        "待开发"
+      ],
+      "createdAt": "2025-10-18T15:25:35.114Z",
+      "updatedAt": "2025-10-20T00:26:33.789Z"
     },
     {
       "title": "创建数据权限规则功能",
@@ -272,6 +259,19 @@
       ],
       "createdAt": "2025-10-18T15:25:35.114Z",
       "updatedAt": "2025-10-20T00:25:37.717Z"
+    },
+    {
+      "title": "权限变更历史功能 - 未实现",
+      "description": "GET /rbac/history - 需要实现权限变更历史功能",
+      "priority": "low",
+      "completed": false,
+      "tags": [
+        "API",
+        "历史记录",
+        "待开发"
+      ],
+      "createdAt": "2025-10-17T22:07:52.596Z",
+      "updatedAt": "2025-10-17T22:07:52.596Z"
     },
     {
       "title": "分配权限功能 - 未实现",
@@ -393,7 +393,7 @@
   ],
   "metadata": {
     "version": "1.0",
-    "lastUpdated": "2025-10-20T00:26:34.291Z",
+    "lastUpdated": "2025-10-20T00:27:40.695Z",
     "source": "云陪玩2.0 Todo"
   }
 }
