@@ -211,7 +211,7 @@
     {
       "title": "数据权限规则功能 - 未实现",
       "description": "GET /rbac/data-rules/* - 需要实现数据权限规则功能",
-      "priority": "low",
+      "priority": "high",
       "completed": false,
       "tags": [
         "API",
@@ -219,7 +219,7 @@
         "待开发"
       ],
       "createdAt": "2025-10-17T22:07:52.596Z",
-      "updatedAt": "2025-10-17T22:07:52.596Z"
+      "updatedAt": "2025-10-20T00:24:45.193Z"
     },
     {
       "title": "权限变更历史功能 - 未实现",
@@ -393,7 +393,7 @@
   ],
   "metadata": {
     "version": "1.0",
-    "lastUpdated": "2025-10-20T00:24:26.438Z",
+    "lastUpdated": "2025-10-20T00:24:45.701Z",
     "source": "云陪玩2.0 Todo"
   }
 }
