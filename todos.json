@@ -4,14 +4,14 @@
       "title": "分配权限功能 - 未实现",
       "description": "POST /rbac/roles/{role_id}/assign-permissions - 需要实现分配权限功能",
       "priority": "high",
-      "completed": false,
+      "completed": true,
       "tags": [
         "API",
         "权限管理",
         "待开发"
       ],
       "createdAt": "2025-10-17T22:07:52.596Z",
-      "updatedAt": "2025-10-17T22:07:52.596Z"
+      "updatedAt": "2025-10-20T00:11:16.795Z"
     },
     {
       "title": "团队列表功能 - 未实现",
@@ -393,7 +393,7 @@
   ],
   "metadata": {
     "version": "1.0",
-    "lastUpdated": "2025-10-19T22:25:43.053Z",
+    "lastUpdated": "2025-10-20T00:11:17.297Z",
     "source": "云陪玩2.0 Todo"
   }
 }
