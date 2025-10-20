@@ -1,7 +1,7 @@
 {
   "todos": [
     {
-      "title": "当前用户信息功能",
+      "title": "当前用户信息功能（功能与“/auth/user”类似）",
       "description": "GET /rbac/me - 需要实现当前用户信息功能",
       "priority": "high",
       "completed": false,
@@ -11,7 +11,7 @@
         "待开发"
       ],
       "createdAt": "2025-10-18T15:25:35.114Z",
-      "updatedAt": "2025-10-18T15:25:35.114Z"
+      "updatedAt": "2025-10-20T17:09:42.833Z"
     },
     {
       "title": "团队详情功能 - 未实现",
@@ -393,7 +393,7 @@
   ],
   "metadata": {
     "version": "1.0",
-    "lastUpdated": "2025-10-20T00:27:40.695Z",
+    "lastUpdated": "2025-10-20T17:09:43.337Z",
     "source": "云陪玩2.0 Todo"
   }
 }
