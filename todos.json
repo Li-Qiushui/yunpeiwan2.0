@@ -79,7 +79,7 @@
       "updatedAt": "2025-10-20T00:22:53.000Z"
     },
     {
-      "title": "当前用户权限功能",
+      "title": "当前用户权限功能 (不理解)",
       "description": "GET /rbac/me/permissions - 需要实现当前用户权限功能",
       "priority": "high",
       "completed": false,
@@ -89,7 +89,7 @@
         "待开发"
       ],
       "createdAt": "2025-10-18T15:25:35.114Z",
-      "updatedAt": "2025-10-20T00:23:03.648Z"
+      "updatedAt": "2025-10-21T22:12:39.972Z"
     },
     {
       "title": "当前用户角色功能",
@@ -393,7 +393,7 @@
   ],
   "metadata": {
     "version": "1.0",
-    "lastUpdated": "2025-10-20T17:09:46.796Z",
+    "lastUpdated": "2025-10-21T22:12:40.480Z",
     "source": "云陪玩2.0 Todo"
   }
 }
