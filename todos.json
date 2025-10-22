@@ -14,7 +14,7 @@
       "updatedAt": "2025-10-22T19:47:37.615Z"
     },
     {
-      "title": "角色详情功能 - 未实现",
+      "title": "角色详情功能 - 未实现 （感觉没用 为什么要返回单个角色的详细信息）",
       "description": "GET /rbac/roles/{role_id} - 需要实现角色详情功能",
       "priority": "high",
       "completed": false,
@@ -24,7 +24,7 @@
         "待开发"
       ],
       "createdAt": "2025-10-17T22:07:52.596Z",
-      "updatedAt": "2025-10-20T00:24:05.771Z"
+      "updatedAt": "2025-10-22T19:49:21.503Z"
     },
     {
       "title": "角色用户列表功能 - 未实现",
@@ -393,7 +393,7 @@
   ],
   "metadata": {
     "version": "1.0",
-    "lastUpdated": "2025-10-22T19:47:38.123Z",
+    "lastUpdated": "2025-10-22T19:49:22.006Z",
     "source": "云陪玩2.0 Todo"
   }
 }
