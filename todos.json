@@ -27,7 +27,7 @@
       "updatedAt": "2025-10-22T19:49:21.503Z"
     },
     {
-      "title": "角色用户列表功能 - 未实现",
+      "title": "角色用户列表功能 - 未实现 （角色管理页面使用）",
       "description": "GET /rbac/roles/{role_id}/users - 需要实现角色用户列表功能",
       "priority": "high",
       "completed": false,
@@ -37,7 +37,7 @@
         "待开发"
       ],
       "createdAt": "2025-10-17T22:07:52.596Z",
-      "updatedAt": "2025-10-22T19:46:55.405Z"
+      "updatedAt": "2025-10-22T19:50:10.897Z"
     },
     {
       "title": "用户角色列表功能 - 未实现（感觉是重复的接口，和当前用户角色差不多）",
@@ -393,7 +393,7 @@
   ],
   "metadata": {
     "version": "1.0",
-    "lastUpdated": "2025-10-22T19:49:22.006Z",
+    "lastUpdated": "2025-10-22T19:50:11.404Z",
     "source": "云陪玩2.0 Todo"
   }
 }
