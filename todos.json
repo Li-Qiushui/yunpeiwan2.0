@@ -79,7 +79,7 @@
       "updatedAt": "2025-10-21T22:12:39.972Z"
     },
     {
-      "title": "当前用户角色功能",
+      "title": "当前用户角色功能 （会在登录接口返回类似值）",
       "description": "GET /rbac/me/roles - 需要实现当前用户角色功能",
       "priority": "high",
       "completed": false,
@@ -89,7 +89,7 @@
         "待开发"
       ],
       "createdAt": "2025-10-18T15:25:35.114Z",
-      "updatedAt": "2025-10-20T00:23:24.141Z"
+      "updatedAt": "2025-10-22T19:43:26.486Z"
     },
     {
       "title": "团队列表功能 - 未实现",
@@ -393,7 +393,7 @@
   ],
   "metadata": {
     "version": "1.0",
-    "lastUpdated": "2025-10-22T19:41:26.986Z",
+    "lastUpdated": "2025-10-22T19:43:26.990Z",
     "source": "云陪玩2.0 Todo"
   }
 }
