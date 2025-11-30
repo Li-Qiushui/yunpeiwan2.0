@@ -1,18 +1,6 @@
 {
   "todos": [
     {
-      "title": "管理员登录",
-      "description": "POST /v1/login/admin-需要实现管理员登录功能",
-      "priority": "high",
-      "completed": false,
-      "tags": [
-        "Login",
-        "登录"
-      ],
-      "createdAt": "2025-11-30T17:00:27.096Z",
-      "updatedAt": "2025-11-30T17:00:27.096Z"
-    },
-    {
       "title": "获取验证码",
       "description": "POST /v1/login/captcha-需要实现获取登录验证码功能",
       "priority": "high",
@@ -1422,11 +1410,23 @@
       ],
       "createdAt": "2025-11-30T17:00:27.098Z",
       "updatedAt": "2025-11-30T17:00:27.098Z"
+    },
+    {
+      "title": "管理员登录",
+      "description": "POST /v1/login/admin-需要实现管理员登录功能",
+      "priority": "high",
+      "completed": true,
+      "tags": [
+        "Login",
+        "登录"
+      ],
+      "createdAt": "2025-11-30T17:00:27.096Z",
+      "updatedAt": "2025-11-30T17:45:20.055Z"
     }
   ],
   "metadata": {
     "version": "1.0",
-    "lastUpdated": "2025-11-30T17:00:33.139Z",
+    "lastUpdated": "2025-11-30T17:45:20.593Z",
     "source": "云陪玩2.0 Todo"
   }
 }
