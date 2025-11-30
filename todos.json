@@ -1,19 +1,6 @@
 {
   "todos": [
     {
-      "title": "获取团队成员接口 - 已完成",
-      "description": "GET /rbac/teams/{team_id}/members - 获取团队成员功能已实现",
-      "priority": "medium",
-      "completed": true,
-      "tags": [
-        "API",
-        "团队管理",
-        "已完成"
-      ],
-      "createdAt": "2025-10-17T22:07:52.596Z",
-      "updatedAt": "2025-10-17T22:07:52.596Z"
-    },
-    {
       "title": "获取团队角色接口 - 已完成",
       "description": "GET /rbac/teams/{team_id}/roles - 获取团队角色功能已实现",
       "priority": "medium",
@@ -29,7 +16,7 @@
   ],
   "metadata": {
     "version": "1.0",
-    "lastUpdated": "2025-11-30T15:53:56.328Z",
+    "lastUpdated": "2025-11-30T15:53:57.710Z",
     "source": "云陪玩2.0 Todo"
   }
 }
