@@ -1,32 +1,6 @@
 {
   "todos": [
     {
-      "title": "获取角色权限接口 - 已完成",
-      "description": "GET /rbac/roles/{role_id}/permissions - 获取角色权限功能已实现",
-      "priority": "high",
-      "completed": true,
-      "tags": [
-        "API",
-        "RBAC",
-        "已完成"
-      ],
-      "createdAt": "2025-10-17T22:07:52.596Z",
-      "updatedAt": "2025-10-17T22:07:52.596Z"
-    },
-    {
-      "title": "创建角色接口 - 已完成",
-      "description": "POST /rbac/roles/create - 创建角色功能已实现",
-      "priority": "high",
-      "completed": true,
-      "tags": [
-        "API",
-        "角色管理",
-        "已完成"
-      ],
-      "createdAt": "2025-10-17T22:07:52.596Z",
-      "updatedAt": "2025-10-17T22:07:52.596Z"
-    },
-    {
       "title": "用户登出接口 - 已完成",
       "description": "POST /auth/logout - 用户登出功能已实现",
       "priority": "high",
@@ -81,7 +55,7 @@
   ],
   "metadata": {
     "version": "1.0",
-    "lastUpdated": "2025-11-30T15:53:49.804Z",
+    "lastUpdated": "2025-11-30T15:53:52.739Z",
     "source": "云陪玩2.0 Todo"
   }
 }
