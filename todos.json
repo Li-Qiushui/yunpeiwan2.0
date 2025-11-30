@@ -1,19 +1,6 @@
 {
   "todos": [
     {
-      "title": "团队详情功能 - 未实现 （emmmm 应该是要单独开一个页面）",
-      "description": "GET /rbac/teams/{team_id} - 需要实现团队详情功能",
-      "priority": "high",
-      "completed": false,
-      "tags": [
-        "API",
-        "团队管理",
-        "待开发"
-      ],
-      "createdAt": "2025-10-17T22:07:52.596Z",
-      "updatedAt": "2025-10-22T19:47:37.615Z"
-    },
-    {
       "title": "角色详情功能 - 未实现 （感觉没用 为什么要返回单个角色的详细信息）",
       "description": "GET /rbac/roles/{role_id} - 需要实现角色详情功能",
       "priority": "high",
@@ -248,6 +235,19 @@
       "updatedAt": "2025-10-17T22:07:52.596Z"
     },
     {
+      "title": "团队详情功能 - 未实现 （emmmm 应该是要单独开一个页面）",
+      "description": "GET /rbac/teams/{team_id} - 需要实现团队详情功能",
+      "priority": "high",
+      "completed": true,
+      "tags": [
+        "API",
+        "团队管理",
+        "待开发"
+      ],
+      "createdAt": "2025-10-17T22:07:52.596Z",
+      "updatedAt": "2025-11-30T15:53:11.893Z"
+    },
+    {
       "title": "角色用户列表功能 - 未实现 （角色管理页面使用）",
       "description": "GET /rbac/roles/{role_id}/users - 需要实现角色用户列表功能",
       "priority": "high",
@@ -393,7 +393,7 @@
   ],
   "metadata": {
     "version": "1.0",
-    "lastUpdated": "2025-10-23T09:26:37.516Z",
+    "lastUpdated": "2025-11-30T15:53:12.406Z",
     "source": "云陪玩2.0 Todo"
   }
 }
