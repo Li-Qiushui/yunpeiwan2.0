@@ -1,32 +1,6 @@
 {
   "todos": [
     {
-      "title": "全局角色列表功能 - 未实现 （已调用）",
-      "description": "GET /rbac/roles - 需要实现全局角色列表功能",
-      "priority": "high",
-      "completed": true,
-      "tags": [
-        "API",
-        "角色管理",
-        "待开发"
-      ],
-      "createdAt": "2025-10-17T22:07:52.596Z",
-      "updatedAt": "2025-10-22T19:41:26.471Z"
-    },
-    {
-      "title": "分配权限功能 - 未实现",
-      "description": "POST /rbac/roles/{role_id}/assign-permissions - 需要实现分配权限功能",
-      "priority": "high",
-      "completed": true,
-      "tags": [
-        "API",
-        "权限管理",
-        "待开发"
-      ],
-      "createdAt": "2025-10-17T22:07:52.596Z",
-      "updatedAt": "2025-10-20T00:11:16.795Z"
-    },
-    {
       "title": "用户登录接口 - 已完成",
       "description": "POST /auth/login - 用户登录功能已实现",
       "priority": "high",
@@ -133,7 +107,7 @@
   ],
   "metadata": {
     "version": "1.0",
-    "lastUpdated": "2025-11-30T15:53:44.234Z",
+    "lastUpdated": "2025-11-30T15:53:47.212Z",
     "source": "云陪玩2.0 Todo"
   }
 }
