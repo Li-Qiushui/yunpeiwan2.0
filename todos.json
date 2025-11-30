@@ -1,15 +1,6 @@
 {
   "todos": [
     {
-      "title": "管理员登录",
-      "description": "POST /v1/login/admin-需要实现管理员登录功能",
-      "priority": "high",
-      "completed": true,
-      "tags": "登录 管理员",
-      "createdAt": "2025-11-30T16:08:20.764Z",
-      "updatedAt": "2025-11-30T16:08:20.764Z"
-    },
-    {
       "title": "获取验证码",
       "description": "POST /v1/login/captcha-需要实现获取登录验证码功能",
       "priority": "high",
@@ -24,24 +15,6 @@
       "priority": "high",
       "completed": true,
       "tags": "认证 JWT",
-      "createdAt": "2025-11-30T16:08:20.764Z",
-      "updatedAt": "2025-11-30T16:08:20.764Z"
-    },
-    {
-      "title": "获取自定义格式",
-      "description": "GET /v1/financial/common/getCustomFormat-需要实现获取自定义格式功能",
-      "priority": "medium",
-      "completed": true,
-      "tags": "格式 配置",
-      "createdAt": "2025-11-30T16:08:20.764Z",
-      "updatedAt": "2025-11-30T16:08:20.764Z"
-    },
-    {
-      "title": "词语联想",
-      "description": "POST /v1/financial/common/wordAssociation-需要实现词语联想功能",
-      "priority": "low",
-      "completed": true,
-      "tags": "工具 联想",
       "createdAt": "2025-11-30T16:08:20.764Z",
       "updatedAt": "2025-11-30T16:08:20.764Z"
     },
@@ -91,65 +64,11 @@
       "updatedAt": "2025-11-30T16:08:20.765Z"
     },
     {
-      "title": "获取订单状态分布",
-      "description": "POST /v1/financial/admin/getStatusDistribution-需要实现获取订单状态分布统计功能",
-      "priority": "medium",
-      "completed": true,
-      "tags": "订单 统计 状态",
-      "createdAt": "2025-11-30T16:08:20.765Z",
-      "updatedAt": "2025-11-30T16:08:20.765Z"
-    },
-    {
       "title": "获取每日订单总价和抽成",
       "description": "POST /v1/financial/admin/getDailyRevenue-需要实现获取每日订单总价和抽成数据功能",
       "priority": "high",
       "completed": true,
       "tags": "订单 统计 收入",
-      "createdAt": "2025-11-30T16:08:20.765Z",
-      "updatedAt": "2025-11-30T16:08:20.765Z"
-    },
-    {
-      "title": "获取订单类型分布",
-      "description": "POST /v1/financial/admin/getTypeDistribution-需要实现获取订单类型分布统计功能",
-      "priority": "medium",
-      "completed": true,
-      "tags": "订单 统计 类型",
-      "createdAt": "2025-11-30T16:08:20.765Z",
-      "updatedAt": "2025-11-30T16:08:20.765Z"
-    },
-    {
-      "title": "获取业绩排行",
-      "description": "POST /v1/financial/admin/getRanking-需要实现获取业绩排行榜功能",
-      "priority": "medium",
-      "completed": true,
-      "tags": "统计 排行 业绩",
-      "createdAt": "2025-11-30T16:08:20.765Z",
-      "updatedAt": "2025-11-30T16:08:20.765Z"
-    },
-    {
-      "title": "获取陪玩存单排行",
-      "description": "POST /v1/financial/admin/getPlaymateSaveRanking-需要实现获取陪玩存单排行榜功能",
-      "priority": "medium",
-      "completed": true,
-      "tags": "统计 排行 陪玩",
-      "createdAt": "2025-11-30T16:08:20.765Z",
-      "updatedAt": "2025-11-30T16:08:20.765Z"
-    },
-    {
-      "title": "获取会员消费排行",
-      "description": "POST /v1/financial/admin/getMemberRanking-需要实现获取会员消费排行榜功能",
-      "priority": "medium",
-      "completed": true,
-      "tags": "统计 排行 会员",
-      "createdAt": "2025-11-30T16:08:20.765Z",
-      "updatedAt": "2025-11-30T16:08:20.765Z"
-    },
-    {
-      "title": "获取会员累计充值排名",
-      "description": "POST /v1/financial/admin/getRechargeRanking-需要实现获取会员累计充值排名功能",
-      "priority": "medium",
-      "completed": true,
-      "tags": "统计 排行 充值",
       "createdAt": "2025-11-30T16:08:20.765Z",
       "updatedAt": "2025-11-30T16:08:20.765Z"
     },
@@ -208,33 +127,6 @@
       "updatedAt": "2025-11-30T16:08:20.765Z"
     },
     {
-      "title": "重命名团队会员",
-      "description": "POST /v1/financial/admin/renameMember-需要实现重命名团队会员并迁移数据功能",
-      "priority": "medium",
-      "completed": true,
-      "tags": "团队 会员 重命名",
-      "createdAt": "2025-11-30T16:08:20.765Z",
-      "updatedAt": "2025-11-30T16:08:20.765Z"
-    },
-    {
-      "title": "重命名用户",
-      "description": "POST /v1/financial/admin/renameUser-需要实现重命名用户功能",
-      "priority": "medium",
-      "completed": true,
-      "tags": "用户 重命名",
-      "createdAt": "2025-11-30T16:08:20.765Z",
-      "updatedAt": "2025-11-30T16:08:20.765Z"
-    },
-    {
-      "title": "获取机器人断开连接日志",
-      "description": "POST /v1/financial/admin/getRobotDisconnectLogs-需要实现获取机器人断开连接日志功能",
-      "priority": "low",
-      "completed": true,
-      "tags": "日志 机器人",
-      "createdAt": "2025-11-30T16:08:20.765Z",
-      "updatedAt": "2025-11-30T16:08:20.765Z"
-    },
-    {
       "title": "删除团队会员",
       "description": "POST /v1/financial/admin/deleteTeamMember-需要实现删除团队会员功能",
       "priority": "high",
@@ -249,24 +141,6 @@
       "priority": "high",
       "completed": true,
       "tags": "团队 会员 查询",
-      "createdAt": "2025-11-30T16:08:20.765Z",
-      "updatedAt": "2025-11-30T16:08:20.765Z"
-    },
-    {
-      "title": "获取操作日志",
-      "description": "POST /v1/financial/admin/getHistory-需要实现获取操作历史日志功能",
-      "priority": "medium",
-      "completed": true,
-      "tags": "日志 操作",
-      "createdAt": "2025-11-30T16:08:20.765Z",
-      "updatedAt": "2025-11-30T16:08:20.765Z"
-    },
-    {
-      "title": "更新自定义格式",
-      "description": "POST /v1/financial/admin/updateCustomFormat-需要实现更新自定义格式配置功能",
-      "priority": "medium",
-      "completed": true,
-      "tags": "格式 配置 更新",
       "createdAt": "2025-11-30T16:08:20.765Z",
       "updatedAt": "2025-11-30T16:08:20.765Z"
     },
@@ -321,6 +195,294 @@
       "priority": "high",
       "completed": true,
       "tags": "团队 设置 查询",
+      "createdAt": "2025-11-30T16:08:20.765Z",
+      "updatedAt": "2025-11-30T16:08:20.765Z"
+    },
+    {
+      "title": "获取会员统计",
+      "description": "POST /v1/financial/admin/getMemberStats-需要实现获取会员统计数据功能",
+      "priority": "high",
+      "completed": true,
+      "tags": "统计 会员",
+      "createdAt": "2025-11-30T16:08:20.765Z",
+      "updatedAt": "2025-11-30T16:08:20.765Z"
+    },
+    {
+      "title": "批量导入订单",
+      "description": "POST /v1/financial/admin/batchImportOrders-需要实现批量导入订单功能",
+      "priority": "high",
+      "completed": true,
+      "tags": "订单 导入 批量",
+      "createdAt": "2025-11-30T16:08:20.765Z",
+      "updatedAt": "2025-11-30T16:08:20.765Z"
+    },
+    {
+      "title": "注册团队管理员",
+      "description": "POST /v1/register/teamAdmin-需要实现注册团队管理员功能",
+      "priority": "high",
+      "completed": true,
+      "tags": "注册 管理员",
+      "createdAt": "2025-11-30T16:08:20.765Z",
+      "updatedAt": "2025-11-30T16:08:20.765Z"
+    },
+    {
+      "title": "获取会员订单",
+      "description": "POST /v1/service/admin/getMemberOrders-需要实现获取会员订单列表功能",
+      "priority": "high",
+      "completed": true,
+      "tags": "订单 会员 查询",
+      "createdAt": "2025-11-30T16:08:20.766Z",
+      "updatedAt": "2025-11-30T16:08:20.766Z"
+    },
+    {
+      "title": "获取积分商品列表",
+      "description": "POST /v1/points/admin/getGoods-需要实现获取积分商品列表功能",
+      "priority": "high",
+      "completed": true,
+      "tags": "积分 商品 查询",
+      "createdAt": "2025-11-30T16:08:20.766Z",
+      "updatedAt": "2025-11-30T16:08:20.766Z"
+    },
+    {
+      "title": "创建积分商品",
+      "description": "POST /v1/points/admin/createGoods-需要实现创建积分商品功能",
+      "priority": "high",
+      "completed": true,
+      "tags": "积分 商品 创建",
+      "createdAt": "2025-11-30T16:08:20.766Z",
+      "updatedAt": "2025-11-30T16:08:20.766Z"
+    },
+    {
+      "title": "更新积分商品",
+      "description": "POST /v1/points/admin/updateGoods-需要实现更新积分商品信息功能",
+      "priority": "high",
+      "completed": true,
+      "tags": "积分 商品 更新",
+      "createdAt": "2025-11-30T16:08:20.766Z",
+      "updatedAt": "2025-11-30T16:08:20.766Z"
+    },
+    {
+      "title": "删除积分商品",
+      "description": "POST /v1/points/admin/deleteGoods-需要实现删除积分商品功能",
+      "priority": "high",
+      "completed": true,
+      "tags": "积分 商品 删除",
+      "createdAt": "2025-11-30T16:08:20.766Z",
+      "updatedAt": "2025-11-30T16:08:20.766Z"
+    },
+    {
+      "title": "获取积分商品详情",
+      "description": "POST /v1/points/admin/getGoodsDetail-需要实现获取积分商品详情功能",
+      "priority": "high",
+      "completed": true,
+      "tags": "积分 商品 详情",
+      "createdAt": "2025-11-30T16:08:20.766Z",
+      "updatedAt": "2025-11-30T16:08:20.766Z"
+    },
+    {
+      "title": "获取用户积分统计",
+      "description": "POST /v1/points/admin/getUserPointsStats-需要实现获取用户积分统计数据功能",
+      "priority": "high",
+      "completed": true,
+      "tags": "积分 统计 用户",
+      "createdAt": "2025-11-30T16:08:20.766Z",
+      "updatedAt": "2025-11-30T16:08:20.766Z"
+    },
+    {
+      "title": "调整积分",
+      "description": "POST /v1/points/admin/adjustPoints-需要实现调整用户积分功能",
+      "priority": "high",
+      "completed": true,
+      "tags": "积分 调整",
+      "createdAt": "2025-11-30T16:08:20.766Z",
+      "updatedAt": "2025-11-30T16:08:20.766Z"
+    },
+    {
+      "title": "获取用户积分列表",
+      "description": "POST /v1/points/admin/getUserPointsList-需要实现获取用户积分列表功能",
+      "priority": "high",
+      "completed": true,
+      "tags": "积分 用户 查询",
+      "createdAt": "2025-11-30T16:08:20.766Z",
+      "updatedAt": "2025-11-30T16:08:20.766Z"
+    },
+    {
+      "title": "创建积分订单",
+      "description": "POST /v1/points/admin/createOrder-需要实现创建积分订单功能",
+      "priority": "high",
+      "completed": true,
+      "tags": "积分 订单 创建",
+      "createdAt": "2025-11-30T16:08:20.766Z",
+      "updatedAt": "2025-11-30T16:08:20.766Z"
+    },
+    {
+      "title": "获取积分订单列表",
+      "description": "POST /v1/points/admin/getOrders-需要实现获取积分订单列表功能",
+      "priority": "high",
+      "completed": true,
+      "tags": "积分 订单 查询",
+      "createdAt": "2025-11-30T16:08:20.766Z",
+      "updatedAt": "2025-11-30T16:08:20.766Z"
+    },
+    {
+      "title": "更新积分订单",
+      "description": "POST /v1/points/admin/updateOrder-需要实现更新积分订单信息功能",
+      "priority": "high",
+      "completed": true,
+      "tags": "积分 订单 更新",
+      "createdAt": "2025-11-30T16:08:20.766Z",
+      "updatedAt": "2025-11-30T16:08:20.766Z"
+    },
+    {
+      "title": "删除积分订单",
+      "description": "POST /v1/points/admin/deleteOrder-需要实现删除积分订单功能",
+      "priority": "high",
+      "completed": true,
+      "tags": "积分 订单 删除",
+      "createdAt": "2025-11-30T16:08:20.766Z",
+      "updatedAt": "2025-11-30T16:08:20.766Z"
+    },
+    {
+      "title": "注册团队用户",
+      "description": "POST /v1/register/teamUser-需要实现注册团队用户功能",
+      "priority": "high",
+      "completed": true,
+      "tags": "注册 用户",
+      "createdAt": "2025-11-30T16:08:20.766Z",
+      "updatedAt": "2025-11-30T16:08:20.766Z"
+    },
+    {
+      "title": "用户登录",
+      "description": "POST /v1/login/user-需要实现用户登录功能",
+      "priority": "high",
+      "completed": true,
+      "tags": "登录 用户",
+      "createdAt": "2025-11-30T16:08:20.766Z",
+      "updatedAt": "2025-11-30T16:08:20.766Z"
+    },
+    {
+      "title": "创建续费订单",
+      "description": "POST /v1/pay/createRenewal-需要实现创建续费订单功能",
+      "priority": "high",
+      "completed": true,
+      "tags": "支付 续费 订单",
+      "createdAt": "2025-11-30T16:08:20.766Z",
+      "updatedAt": "2025-11-30T16:08:20.766Z"
+    },
+    {
+      "title": "查询订单状态",
+      "description": "POST /v1/pay/queryOrder-需要实现查询订单支付状态功能",
+      "priority": "high",
+      "completed": true,
+      "tags": "支付 订单 查询",
+      "createdAt": "2025-11-30T16:08:20.766Z",
+      "updatedAt": "2025-11-30T16:08:20.766Z"
+    },
+    {
+      "title": "创建功能订单",
+      "description": "POST /v1/pay/createFeature-需要实现创建功能订单功能",
+      "priority": "high",
+      "completed": true,
+      "tags": "支付 功能 订单",
+      "createdAt": "2025-11-30T16:08:20.766Z",
+      "updatedAt": "2025-11-30T16:08:20.766Z"
+    },
+    {
+      "title": "获取自定义格式",
+      "description": "GET /v1/financial/common/getCustomFormat-需要实现获取自定义格式功能",
+      "priority": "medium",
+      "completed": true,
+      "tags": "格式 配置",
+      "createdAt": "2025-11-30T16:08:20.764Z",
+      "updatedAt": "2025-11-30T16:08:20.764Z"
+    },
+    {
+      "title": "获取订单状态分布",
+      "description": "POST /v1/financial/admin/getStatusDistribution-需要实现获取订单状态分布统计功能",
+      "priority": "medium",
+      "completed": true,
+      "tags": "订单 统计 状态",
+      "createdAt": "2025-11-30T16:08:20.765Z",
+      "updatedAt": "2025-11-30T16:08:20.765Z"
+    },
+    {
+      "title": "获取订单类型分布",
+      "description": "POST /v1/financial/admin/getTypeDistribution-需要实现获取订单类型分布统计功能",
+      "priority": "medium",
+      "completed": true,
+      "tags": "订单 统计 类型",
+      "createdAt": "2025-11-30T16:08:20.765Z",
+      "updatedAt": "2025-11-30T16:08:20.765Z"
+    },
+    {
+      "title": "获取业绩排行",
+      "description": "POST /v1/financial/admin/getRanking-需要实现获取业绩排行榜功能",
+      "priority": "medium",
+      "completed": true,
+      "tags": "统计 排行 业绩",
+      "createdAt": "2025-11-30T16:08:20.765Z",
+      "updatedAt": "2025-11-30T16:08:20.765Z"
+    },
+    {
+      "title": "获取陪玩存单排行",
+      "description": "POST /v1/financial/admin/getPlaymateSaveRanking-需要实现获取陪玩存单排行榜功能",
+      "priority": "medium",
+      "completed": true,
+      "tags": "统计 排行 陪玩",
+      "createdAt": "2025-11-30T16:08:20.765Z",
+      "updatedAt": "2025-11-30T16:08:20.765Z"
+    },
+    {
+      "title": "获取会员消费排行",
+      "description": "POST /v1/financial/admin/getMemberRanking-需要实现获取会员消费排行榜功能",
+      "priority": "medium",
+      "completed": true,
+      "tags": "统计 排行 会员",
+      "createdAt": "2025-11-30T16:08:20.765Z",
+      "updatedAt": "2025-11-30T16:08:20.765Z"
+    },
+    {
+      "title": "获取会员累计充值排名",
+      "description": "POST /v1/financial/admin/getRechargeRanking-需要实现获取会员累计充值排名功能",
+      "priority": "medium",
+      "completed": true,
+      "tags": "统计 排行 充值",
+      "createdAt": "2025-11-30T16:08:20.765Z",
+      "updatedAt": "2025-11-30T16:08:20.765Z"
+    },
+    {
+      "title": "重命名团队会员",
+      "description": "POST /v1/financial/admin/renameMember-需要实现重命名团队会员并迁移数据功能",
+      "priority": "medium",
+      "completed": true,
+      "tags": "团队 会员 重命名",
+      "createdAt": "2025-11-30T16:08:20.765Z",
+      "updatedAt": "2025-11-30T16:08:20.765Z"
+    },
+    {
+      "title": "重命名用户",
+      "description": "POST /v1/financial/admin/renameUser-需要实现重命名用户功能",
+      "priority": "medium",
+      "completed": true,
+      "tags": "用户 重命名",
+      "createdAt": "2025-11-30T16:08:20.765Z",
+      "updatedAt": "2025-11-30T16:08:20.765Z"
+    },
+    {
+      "title": "获取操作日志",
+      "description": "POST /v1/financial/admin/getHistory-需要实现获取操作历史日志功能",
+      "priority": "medium",
+      "completed": true,
+      "tags": "日志 操作",
+      "createdAt": "2025-11-30T16:08:20.765Z",
+      "updatedAt": "2025-11-30T16:08:20.765Z"
+    },
+    {
+      "title": "更新自定义格式",
+      "description": "POST /v1/financial/admin/updateCustomFormat-需要实现更新自定义格式配置功能",
+      "priority": "medium",
+      "completed": true,
+      "tags": "格式 配置 更新",
       "createdAt": "2025-11-30T16:08:20.765Z",
       "updatedAt": "2025-11-30T16:08:20.765Z"
     },
@@ -469,15 +631,6 @@
       "updatedAt": "2025-11-30T16:08:20.765Z"
     },
     {
-      "title": "获取会员统计",
-      "description": "POST /v1/financial/admin/getMemberStats-需要实现获取会员统计数据功能",
-      "priority": "high",
-      "completed": true,
-      "tags": "统计 会员",
-      "createdAt": "2025-11-30T16:08:20.765Z",
-      "updatedAt": "2025-11-30T16:08:20.765Z"
-    },
-    {
       "title": "上传临时文件",
       "description": "POST /v1/common/uploadTempFile-需要实现上传临时文件功能",
       "priority": "medium",
@@ -604,15 +757,6 @@
       "updatedAt": "2025-11-30T16:08:20.765Z"
     },
     {
-      "title": "获取公告",
-      "description": "POST /v1/common/getAnnouncements-需要实现获取公告列表功能",
-      "priority": "low",
-      "completed": true,
-      "tags": "公告 查询",
-      "createdAt": "2025-11-30T16:08:20.765Z",
-      "updatedAt": "2025-11-30T16:08:20.765Z"
-    },
-    {
       "title": "创建客服",
       "description": "POST /v1/display/admin/createCustomerSupport-需要实现创建客服信息功能",
       "priority": "medium",
@@ -703,33 +847,6 @@
       "updatedAt": "2025-11-30T16:08:20.765Z"
     },
     {
-      "title": "获取头像框列表",
-      "description": "GET /v1/display/admin/getAvatarFrameList-需要实现获取头像框列表功能",
-      "priority": "low",
-      "completed": true,
-      "tags": "展示 头像框",
-      "createdAt": "2025-11-30T16:08:20.765Z",
-      "updatedAt": "2025-11-30T16:08:20.765Z"
-    },
-    {
-      "title": "获取标签自定义格式",
-      "description": "GET /v1/display/admin/getTagsCustomFormat-需要实现获取标签自定义格式功能",
-      "priority": "low",
-      "completed": true,
-      "tags": "格式 标签",
-      "createdAt": "2025-11-30T16:08:20.765Z",
-      "updatedAt": "2025-11-30T16:08:20.765Z"
-    },
-    {
-      "title": "更新标签自定义格式",
-      "description": "POST /v1/display/admin/updateTagsCustomFormat-需要实现更新标签自定义格式功能",
-      "priority": "low",
-      "completed": true,
-      "tags": "格式 标签 更新",
-      "createdAt": "2025-11-30T16:08:20.765Z",
-      "updatedAt": "2025-11-30T16:08:20.765Z"
-    },
-    {
       "title": "获取群聊抽成配置",
       "description": "GET /v1/financial/admin/getChatroomShareConfig-需要实现获取群聊抽成配置功能",
       "priority": "medium",
@@ -762,24 +879,6 @@
       "priority": "medium",
       "completed": true,
       "tags": "配置 群聊 抽成 删除",
-      "createdAt": "2025-11-30T16:08:20.765Z",
-      "updatedAt": "2025-11-30T16:08:20.765Z"
-    },
-    {
-      "title": "批量导入订单",
-      "description": "POST /v1/financial/admin/batchImportOrders-需要实现批量导入订单功能",
-      "priority": "high",
-      "completed": true,
-      "tags": "订单 导入 批量",
-      "createdAt": "2025-11-30T16:08:20.765Z",
-      "updatedAt": "2025-11-30T16:08:20.765Z"
-    },
-    {
-      "title": "注册团队管理员",
-      "description": "POST /v1/register/teamAdmin-需要实现注册团队管理员功能",
-      "priority": "high",
-      "completed": true,
-      "tags": "注册 管理员",
       "createdAt": "2025-11-30T16:08:20.765Z",
       "updatedAt": "2025-11-30T16:08:20.765Z"
     },
@@ -829,15 +928,6 @@
       "updatedAt": "2025-11-30T16:08:20.766Z"
     },
     {
-      "title": "获取会员订单",
-      "description": "POST /v1/service/admin/getMemberOrders-需要实现获取会员订单列表功能",
-      "priority": "high",
-      "completed": true,
-      "tags": "订单 会员 查询",
-      "createdAt": "2025-11-30T16:08:20.766Z",
-      "updatedAt": "2025-11-30T16:08:20.766Z"
-    },
-    {
       "title": "获取服务团队用户列表",
       "description": "POST /v1/service/admin/getServiceTeamUsers-需要实现获取服务团队用户列表功能",
       "priority": "medium",
@@ -852,69 +942,6 @@
       "priority": "medium",
       "completed": true,
       "tags": "团队 用户 绑定",
-      "createdAt": "2025-11-30T16:08:20.766Z",
-      "updatedAt": "2025-11-30T16:08:20.766Z"
-    },
-    {
-      "title": "启用免费功能",
-      "description": "POST /v1/pay/enableFreeFeature-需要实现启用免费功能",
-      "priority": "low",
-      "completed": true,
-      "tags": "功能 免费",
-      "createdAt": "2025-11-30T16:08:20.766Z",
-      "updatedAt": "2025-11-30T16:08:20.766Z"
-    },
-    {
-      "title": "获取积分商品列表",
-      "description": "POST /v1/points/admin/getGoods-需要实现获取积分商品列表功能",
-      "priority": "high",
-      "completed": true,
-      "tags": "积分 商品 查询",
-      "createdAt": "2025-11-30T16:08:20.766Z",
-      "updatedAt": "2025-11-30T16:08:20.766Z"
-    },
-    {
-      "title": "创建积分商品",
-      "description": "POST /v1/points/admin/createGoods-需要实现创建积分商品功能",
-      "priority": "high",
-      "completed": true,
-      "tags": "积分 商品 创建",
-      "createdAt": "2025-11-30T16:08:20.766Z",
-      "updatedAt": "2025-11-30T16:08:20.766Z"
-    },
-    {
-      "title": "更新积分商品",
-      "description": "POST /v1/points/admin/updateGoods-需要实现更新积分商品信息功能",
-      "priority": "high",
-      "completed": true,
-      "tags": "积分 商品 更新",
-      "createdAt": "2025-11-30T16:08:20.766Z",
-      "updatedAt": "2025-11-30T16:08:20.766Z"
-    },
-    {
-      "title": "删除积分商品",
-      "description": "POST /v1/points/admin/deleteGoods-需要实现删除积分商品功能",
-      "priority": "high",
-      "completed": true,
-      "tags": "积分 商品 删除",
-      "createdAt": "2025-11-30T16:08:20.766Z",
-      "updatedAt": "2025-11-30T16:08:20.766Z"
-    },
-    {
-      "title": "获取积分商品详情",
-      "description": "POST /v1/points/admin/getGoodsDetail-需要实现获取积分商品详情功能",
-      "priority": "high",
-      "completed": true,
-      "tags": "积分 商品 详情",
-      "createdAt": "2025-11-30T16:08:20.766Z",
-      "updatedAt": "2025-11-30T16:08:20.766Z"
-    },
-    {
-      "title": "获取用户积分统计",
-      "description": "POST /v1/points/admin/getUserPointsStats-需要实现获取用户积分统计数据功能",
-      "priority": "high",
-      "completed": true,
-      "tags": "积分 统计 用户",
       "createdAt": "2025-11-30T16:08:20.766Z",
       "updatedAt": "2025-11-30T16:08:20.766Z"
     },
@@ -937,110 +964,11 @@
       "updatedAt": "2025-11-30T16:08:20.766Z"
     },
     {
-      "title": "调整积分",
-      "description": "POST /v1/points/admin/adjustPoints-需要实现调整用户积分功能",
-      "priority": "high",
-      "completed": true,
-      "tags": "积分 调整",
-      "createdAt": "2025-11-30T16:08:20.766Z",
-      "updatedAt": "2025-11-30T16:08:20.766Z"
-    },
-    {
-      "title": "获取用户积分列表",
-      "description": "POST /v1/points/admin/getUserPointsList-需要实现获取用户积分列表功能",
-      "priority": "high",
-      "completed": true,
-      "tags": "积分 用户 查询",
-      "createdAt": "2025-11-30T16:08:20.766Z",
-      "updatedAt": "2025-11-30T16:08:20.766Z"
-    },
-    {
-      "title": "创建积分订单",
-      "description": "POST /v1/points/admin/createOrder-需要实现创建积分订单功能",
-      "priority": "high",
-      "completed": true,
-      "tags": "积分 订单 创建",
-      "createdAt": "2025-11-30T16:08:20.766Z",
-      "updatedAt": "2025-11-30T16:08:20.766Z"
-    },
-    {
-      "title": "获取积分订单列表",
-      "description": "POST /v1/points/admin/getOrders-需要实现获取积分订单列表功能",
-      "priority": "high",
-      "completed": true,
-      "tags": "积分 订单 查询",
-      "createdAt": "2025-11-30T16:08:20.766Z",
-      "updatedAt": "2025-11-30T16:08:20.766Z"
-    },
-    {
-      "title": "更新积分订单",
-      "description": "POST /v1/points/admin/updateOrder-需要实现更新积分订单信息功能",
-      "priority": "high",
-      "completed": true,
-      "tags": "积分 订单 更新",
-      "createdAt": "2025-11-30T16:08:20.766Z",
-      "updatedAt": "2025-11-30T16:08:20.766Z"
-    },
-    {
-      "title": "删除积分订单",
-      "description": "POST /v1/points/admin/deleteOrder-需要实现删除积分订单功能",
-      "priority": "high",
-      "completed": true,
-      "tags": "积分 订单 删除",
-      "createdAt": "2025-11-30T16:08:20.766Z",
-      "updatedAt": "2025-11-30T16:08:20.766Z"
-    },
-    {
       "title": "获取可用积分商品列表",
       "description": "POST /v1/points/admin/getAvailableGoods-需要实现获取可用的积分商品列表功能",
       "priority": "medium",
       "completed": true,
       "tags": "积分 商品 可用",
-      "createdAt": "2025-11-30T16:08:20.766Z",
-      "updatedAt": "2025-11-30T16:08:20.766Z"
-    },
-    {
-      "title": "注册团队用户",
-      "description": "POST /v1/register/teamUser-需要实现注册团队用户功能",
-      "priority": "high",
-      "completed": true,
-      "tags": "注册 用户",
-      "createdAt": "2025-11-30T16:08:20.766Z",
-      "updatedAt": "2025-11-30T16:08:20.766Z"
-    },
-    {
-      "title": "用户登录",
-      "description": "POST /v1/login/user-需要实现用户登录功能",
-      "priority": "high",
-      "completed": true,
-      "tags": "登录 用户",
-      "createdAt": "2025-11-30T16:08:20.766Z",
-      "updatedAt": "2025-11-30T16:08:20.766Z"
-    },
-    {
-      "title": "创建续费订单",
-      "description": "POST /v1/pay/createRenewal-需要实现创建续费订单功能",
-      "priority": "high",
-      "completed": true,
-      "tags": "支付 续费 订单",
-      "createdAt": "2025-11-30T16:08:20.766Z",
-      "updatedAt": "2025-11-30T16:08:20.766Z"
-    },
-    {
-      "title": "查询订单状态",
-      "description": "POST /v1/pay/queryOrder-需要实现查询订单支付状态功能",
-      "priority": "high",
-      "completed": true,
-      "tags": "支付 订单 查询",
-      "createdAt": "2025-11-30T16:08:20.766Z",
-      "updatedAt": "2025-11-30T16:08:20.766Z"
-    },
-    {
-      "title": "创建功能订单",
-      "description": "POST /v1/pay/createFeature-需要实现创建功能订单功能",
-      "priority": "high",
-      "completed": true,
-      "tags": "支付 功能 订单",
       "createdAt": "2025-11-30T16:08:20.766Z",
       "updatedAt": "2025-11-30T16:08:20.766Z"
     },
@@ -1052,11 +980,74 @@
       "tags": "支付 功能 查询",
       "createdAt": "2025-11-30T16:08:20.766Z",
       "updatedAt": "2025-11-30T16:08:20.766Z"
+    },
+    {
+      "title": "词语联想",
+      "description": "POST /v1/financial/common/wordAssociation-需要实现词语联想功能",
+      "priority": "low",
+      "completed": true,
+      "tags": "工具 联想",
+      "createdAt": "2025-11-30T16:08:20.764Z",
+      "updatedAt": "2025-11-30T16:08:20.764Z"
+    },
+    {
+      "title": "获取机器人断开连接日志",
+      "description": "POST /v1/financial/admin/getRobotDisconnectLogs-需要实现获取机器人断开连接日志功能",
+      "priority": "low",
+      "completed": true,
+      "tags": "日志 机器人",
+      "createdAt": "2025-11-30T16:08:20.765Z",
+      "updatedAt": "2025-11-30T16:08:20.765Z"
+    },
+    {
+      "title": "获取公告",
+      "description": "POST /v1/common/getAnnouncements-需要实现获取公告列表功能",
+      "priority": "low",
+      "completed": true,
+      "tags": "公告 查询",
+      "createdAt": "2025-11-30T16:08:20.765Z",
+      "updatedAt": "2025-11-30T16:08:20.765Z"
+    },
+    {
+      "title": "获取头像框列表",
+      "description": "GET /v1/display/admin/getAvatarFrameList-需要实现获取头像框列表功能",
+      "priority": "low",
+      "completed": true,
+      "tags": "展示 头像框",
+      "createdAt": "2025-11-30T16:08:20.765Z",
+      "updatedAt": "2025-11-30T16:08:20.765Z"
+    },
+    {
+      "title": "获取标签自定义格式",
+      "description": "GET /v1/display/admin/getTagsCustomFormat-需要实现获取标签自定义格式功能",
+      "priority": "low",
+      "completed": true,
+      "tags": "格式 标签",
+      "createdAt": "2025-11-30T16:08:20.765Z",
+      "updatedAt": "2025-11-30T16:08:20.765Z"
+    },
+    {
+      "title": "更新标签自定义格式",
+      "description": "POST /v1/display/admin/updateTagsCustomFormat-需要实现更新标签自定义格式功能",
+      "priority": "low",
+      "completed": true,
+      "tags": "格式 标签 更新",
+      "createdAt": "2025-11-30T16:08:20.765Z",
+      "updatedAt": "2025-11-30T16:08:20.765Z"
+    },
+    {
+      "title": "启用免费功能",
+      "description": "POST /v1/pay/enableFreeFeature-需要实现启用免费功能",
+      "priority": "low",
+      "completed": true,
+      "tags": "功能 免费",
+      "createdAt": "2025-11-30T16:08:20.766Z",
+      "updatedAt": "2025-11-30T16:08:20.766Z"
     }
   ],
   "metadata": {
     "version": "1.0",
-    "lastUpdated": "2025-11-30T16:08:21.281Z",
+    "lastUpdated": "2025-11-30T16:09:01.693Z",
     "source": "云陪玩2.0 Todo"
   }
 }
