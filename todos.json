@@ -1,32 +1,6 @@
 {
   "todos": [
     {
-      "title": "当前用户信息功能（功能与“/auth/user”类似）",
-      "description": "GET /rbac/me - 需要实现当前用户信息功能",
-      "priority": "low",
-      "completed": false,
-      "tags": [
-        "API",
-        "用户管理",
-        "待开发"
-      ],
-      "createdAt": "2025-10-18T15:25:35.114Z",
-      "updatedAt": "2025-10-20T17:09:46.282Z"
-    },
-    {
-      "title": "权限变更历史功能 - 未实现",
-      "description": "GET /rbac/history - 需要实现权限变更历史功能",
-      "priority": "low",
-      "completed": false,
-      "tags": [
-        "API",
-        "历史记录",
-        "待开发"
-      ],
-      "createdAt": "2025-10-17T22:07:52.596Z",
-      "updatedAt": "2025-10-17T22:07:52.596Z"
-    },
-    {
       "title": "团队详情功能 - 未实现 （emmmm 应该是要单独开一个页面）",
       "description": "GET /rbac/teams/{team_id} - 需要实现团队详情功能",
       "priority": "high",
@@ -185,7 +159,7 @@
   ],
   "metadata": {
     "version": "1.0",
-    "lastUpdated": "2025-11-30T15:53:38.266Z",
+    "lastUpdated": "2025-11-30T15:53:41.390Z",
     "source": "云陪玩2.0 Todo"
   }
 }
