@@ -1319,17 +1319,6 @@
       "updatedAt": "2025-11-30T16:34:47.544Z"
     },
     {
-      "title": "测试",
-      "description": "1",
-      "priority": "medium",
-      "completed": false,
-      "tags": [
-        "1"
-      ],
-      "createdAt": "2025-11-30T16:46:38.132Z",
-      "updatedAt": "2025-11-30T16:46:38.132Z"
-    },
-    {
       "title": "词语联想",
       "description": "POST /v1/financial/common/wordAssociation-需要实现词语联想功能",
       "priority": "low",
@@ -1433,7 +1422,7 @@
   ],
   "metadata": {
     "version": "1.0",
-    "lastUpdated": "2025-11-30T16:46:38.666Z",
+    "lastUpdated": "2025-11-30T16:46:52.072Z",
     "source": "云陪玩2.0 Todo"
   }
 }
