@@ -1,32 +1,6 @@
 {
   "todos": [
     {
-      "title": "创建数据权限规则功能",
-      "description": "POST /rbac/data-rules/create - 需要实现创建数据权限规则功能",
-      "priority": "medium",
-      "completed": false,
-      "tags": [
-        "API",
-        "数据权限",
-        "待开发"
-      ],
-      "createdAt": "2025-10-18T15:25:35.114Z",
-      "updatedAt": "2025-10-20T00:25:22.857Z"
-    },
-    {
-      "title": "更新数据权限规则功能",
-      "description": "POST /rbac/data-rules/{rule_id}/update - 需要实现更新数据权限规则功能",
-      "priority": "medium",
-      "completed": false,
-      "tags": [
-        "API",
-        "数据权限",
-        "待开发"
-      ],
-      "createdAt": "2025-10-18T15:25:35.114Z",
-      "updatedAt": "2025-10-20T00:25:30.282Z"
-    },
-    {
       "title": "删除数据权限规则功能",
       "description": "POST /rbac/data-rules/{rule_id}/delete - 需要实现删除数据权限规则功能",
       "priority": "medium",
@@ -224,7 +198,7 @@
   ],
   "metadata": {
     "version": "1.0",
-    "lastUpdated": "2025-11-30T15:53:33.758Z",
+    "lastUpdated": "2025-11-30T15:53:36.808Z",
     "source": "云陪玩2.0 Todo"
   }
 }
