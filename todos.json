@@ -1,19 +1,6 @@
 {
   "todos": [
     {
-      "title": "团队统计功能 - 未实现",
-      "description": "GET /rbac/teams/{team_id}/statistics - 需要实现团队统计功能",
-      "priority": "medium",
-      "completed": false,
-      "tags": [
-        "API",
-        "团队管理",
-        "待开发"
-      ],
-      "createdAt": "2025-10-17T22:07:52.596Z",
-      "updatedAt": "2025-10-17T22:07:52.596Z"
-    },
-    {
       "title": "批量分配角色功能 - 未实现",
       "description": "POST /rbac/user-roles/batch-assign - 需要实现批量分配角色功能",
       "priority": "medium",
@@ -263,7 +250,7 @@
   ],
   "metadata": {
     "version": "1.0",
-    "lastUpdated": "2025-11-30T15:53:28.917Z",
+    "lastUpdated": "2025-11-30T15:53:30.934Z",
     "source": "云陪玩2.0 Todo"
   }
 }
