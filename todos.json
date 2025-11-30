@@ -1,19 +1,6 @@
 {
   "todos": [
     {
-      "title": "获取用户信息接口 - 已完成",
-      "description": "GET /auth/user - 获取用户信息功能已实现",
-      "priority": "high",
-      "completed": true,
-      "tags": [
-        "API",
-        "认证",
-        "已完成"
-      ],
-      "createdAt": "2025-10-17T22:07:52.596Z",
-      "updatedAt": "2025-10-17T22:07:52.596Z"
-    },
-    {
       "title": "获取角色权限接口 - 已完成",
       "description": "GET /rbac/roles/{role_id}/permissions - 获取角色权限功能已实现",
       "priority": "high",
@@ -94,7 +81,7 @@
   ],
   "metadata": {
     "version": "1.0",
-    "lastUpdated": "2025-11-30T15:53:48.565Z",
+    "lastUpdated": "2025-11-30T15:53:49.804Z",
     "source": "云陪玩2.0 Todo"
   }
 }
