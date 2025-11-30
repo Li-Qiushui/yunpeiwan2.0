@@ -1,32 +1,6 @@
 {
   "todos": [
     {
-      "title": "当前用户角色功能 （会在登录接口返回类似值）",
-      "description": "GET /rbac/me/roles - 需要实现当前用户角色功能",
-      "priority": "high",
-      "completed": false,
-      "tags": [
-        "API",
-        "角色管理",
-        "待开发"
-      ],
-      "createdAt": "2025-10-18T15:25:35.114Z",
-      "updatedAt": "2025-10-22T19:43:26.486Z"
-    },
-    {
-      "title": "团队列表功能 - 未实现（不理解具体用处）",
-      "description": "GET /rbac/teams - 需要实现团队列表功能",
-      "priority": "high",
-      "completed": false,
-      "tags": [
-        "API",
-        "团队管理",
-        "待开发"
-      ],
-      "createdAt": "2025-10-17T22:07:52.596Z",
-      "updatedAt": "2025-10-22T19:43:38.332Z"
-    },
-    {
       "title": "数据权限规则功能 - 未实现 （暂时不知道干嘛用的）",
       "description": "GET /rbac/data-rules/* - 需要实现数据权限规则功能",
       "priority": "high",
@@ -341,7 +315,7 @@
   ],
   "metadata": {
     "version": "1.0",
-    "lastUpdated": "2025-11-30T15:53:19.841Z",
+    "lastUpdated": "2025-11-30T15:53:22.458Z",
     "source": "云陪玩2.0 Todo"
   }
 }
